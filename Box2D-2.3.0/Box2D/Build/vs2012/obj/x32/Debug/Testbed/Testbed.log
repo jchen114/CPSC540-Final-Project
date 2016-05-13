@@ -1,0 +1,19 @@
+﻿Build started 4/5/2016 8:11:25 PM.
+     1>Project "T:\Dropbox\UBC\RA\Box2D-2.3.0\Box2D\Build\vs2012\Testbed.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         E:\Visual Studio 2013\VC\bin\CL.exe /c /I..\.. /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_WARNINGS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"obj\x32\Debug\Testbed\\" /Fd"bin\Debug\Testbed.pdb" /Gd /TP /analyze- /errorReport:prompt ..\..\Testbed\Tests\TestEntries.cpp
+         TestEntries.cpp
+     1>t:\dropbox\ubc\ra\box2d-2.3.0\box2d\testbed\tests\revolutechains.h(15): warning C4305: 'initializing' : truncation from 'double' to 'const float'
+     1>t:\dropbox\ubc\ra\box2d-2.3.0\box2d\testbed\tests\revolutechains.h(16): warning C4305: 'initializing' : truncation from 'double' to 'const float32'
+     1>t:\dropbox\ubc\ra\box2d-2.3.0\box2d\testbed\tests\revolutechains.h(17): warning C4305: 'initializing' : truncation from 'double' to 'const float32'
+       Link:
+         E:\Visual Studio 2013\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"bin\Debug\Testbed.exe" /INCREMENTAL /NOLOGO bin\Debug\Box2D.lib bin\Debug\FreeGLUT.lib bin\Debug\GLUI.lib glu32.lib opengl32.lib winmm.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"bin\Debug\Testbed.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /ENTRY:"mainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"bin\Debug\Testbed.lib" /MACHINE:X86 obj\x32\Debug\Testbed\Main.obj
+         obj\x32\Debug\Testbed\Render.obj
+         obj\x32\Debug\Testbed\Test.obj
+         obj\x32\Debug\Testbed\TestEntries.obj
+         Testbed.vcxproj -> T:\Dropbox\UBC\RA\Box2D-2.3.0\Box2D\Build\vs2012\bin\Debug\Testbed.exe
+     1>Done Building Project "T:\Dropbox\UBC\RA\Box2D-2.3.0\Box2D\Build\vs2012\Testbed.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.43
